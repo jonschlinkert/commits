@@ -1,0 +1,58 @@
+{
+  "name": "commits",
+  "description": "List the commits on a GitHub repository.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/commits",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/commits",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/commits/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "github-base": "^0.5.4",
+    "isobject": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.0"
+  },
+  "keywords": [
+    "commits",
+    "github",
+    "api",
+    "gh"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "get-file",
+        "gists",
+        "github-base",
+        "repos",
+        "topics"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
